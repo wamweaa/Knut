@@ -42,6 +42,8 @@ class FinancialRecord(db.Model):
     shares = db.Column(db.Float, default=0.0)
     interest = db.Column(db.Float, default=0.0)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    
+
 
 # Routes
 
